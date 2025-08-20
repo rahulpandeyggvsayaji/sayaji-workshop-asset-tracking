@@ -4,16 +4,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "tailwindcss -i ./app/globals.css -o ./app/output.css"
+    "start": "next start"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",
     "clsx": "^2.1.1",
     "lucide-react": "^0.461.0",
     "next": "^14.2.11",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-hook-form": "^7.53.0",
     "zod": "^3.23.8"
   },
